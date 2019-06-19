@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visuals on hmorl</title>
+    <link>/categories/visuals/</link>
+    <description>Recent content in Visuals on hmorl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Thu, 14 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/visuals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AV Mini Projects</title>
+      <link>/posts/aavp-mini-projects/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/aavp-mini-projects/</guid>
+      <description>Collection of 4 mini-projects I completed for Mick Grierson&amp;rsquo;s &amp;ldquo;Advanced Audio-Visual Processing&amp;rdquo; module as part of my MA in Computational Arts at Goldsmiths.
+Image manipulator - skew and animated ripple FM synth with radual FFT plot Granular audio scrubber with spray 3x3 video motion detector with radial plot Videos coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Game of Live</title>
+      <link>/posts/game-of-live/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/game-of-live/</guid>
+      <description>A sonification of John Conway’s Game of Life, the famous cellular automaton. Built in Ableton’s Max for Live, the system treats an iterating 2D grid as a generative arpeggiator, which outputs MIDI to a synth. Each cell of the grid can be alive or dead, the state of which is determined by a simple set of rules based on the number of neighbours it has.
+Visuals coded in Processing.</description>
+    </item>
+    
+  </channel>
+</rss>

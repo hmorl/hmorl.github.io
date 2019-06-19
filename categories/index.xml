@@ -10,5 +10,50 @@
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Coding</title>
+      <link>/categories/coding/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>/categories/collaboration/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/collaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Composition</title>
+      <link>/categories/composition/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/composition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>/categories/performance/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visuals</title>
+      <link>/categories/visuals/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/visuals/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

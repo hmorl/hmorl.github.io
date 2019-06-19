@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="/css/style.css">
         <link rel="stylesheet" type="text/css" href="/css/fa.css" >
 
-        <title>404 Page not found - hmorl</title>
+        <title>Image Sonifications - hmorl</title>
         <meta name="generator" content="Hugo 0.54.0" />
     </head>
     <body>
@@ -83,7 +83,39 @@
             </div>
             <main>
 
-<h1>404 Page Not Found</h1>
+<div id = "post-content">
+<h1>Image Sonifications</h1>
+
+<h2>June 10, 2016</h2>
+
+<p>Below are a set of sonifications I made of 3 famous works of art. I built a sonification system in <a href="https://www.processing.org">Processing</a> that simplifies an image of the artwork into an array of larger pixels, displayed as circles. The program then ‘plays’ the pixels by selecting them at random, which triggers notes using HSB (hue, saturation, brightness) data to derive pitches and rhythms.</p>
+
+<p>When a pixel is triggered, 2 notes are played simultaneously. The pitch of the first note is mapped to hue, the second note is mapped to brightness, so is the delay time between triggering the next pixel. The saturation value is mapped to the velocity of the two notes played.</p>
+
+<p>Though this was a fairly simple study, the results were quite pleasing.</p>
+
+<p>Plans for improvement:</p>
+
+<ul>
+<li>Image traversal paths/routes so not just randomly selecting pixels</li>
+<li>Automatic mode selection</li>
+<li>Automatic timbral changes to create piece movement</li>
+</ul>
+
+<hr />
+
+<p><em>The Persistence of Memory</em>(1931) - Salvador Dalí</p>
+
+<p><a href="https://youtu.be/R5IjdW5LdhY">https://youtu.be/R5IjdW5LdhY</a></p>
+
+<p><em>Impression, Sunrise</em> (1872) - Claude Monet</p>
+
+<p><a href="https://youtu.be/3vxewNEzh98">https://youtu.be/3vxewNEzh98</a></p>
+
+<p><em>Untitled</em> (1987) by Jannis Kounellis</p>
+
+<p><a href="https://youtu.be/n_9dHEcqbwE">https://youtu.be/n_9dHEcqbwE</a></p>
+</div>
             </main>
             <footer class = "site-footer">
                 <hr />

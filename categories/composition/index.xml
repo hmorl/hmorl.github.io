@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hmorl</title>
-    <link>/</link>
-    <description>Recent content on hmorl</description>
+    <title>Composition on hmorl</title>
+    <link>/categories/composition/</link>
+    <description>Recent content in Composition on hmorl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
     <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/composition/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
     </item>
     
     <item>
-      <title>AV Mini Projects</title>
-      <link>/posts/aavp-mini-projects/</link>
-      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/aavp-mini-projects/</guid>
-      <description>Collection of 4 mini-projects I completed for Mick Grierson&amp;rsquo;s &amp;ldquo;Advanced Audio-Visual Processing&amp;rdquo; module as part of my MA in Computational Arts at Goldsmiths.
-Image manipulator - skew and animated ripple FM synth with radual FFT plot Granular audio scrubber with spray 3x3 video motion detector with radial plot Videos coming soon!</description>
-    </item>
-    
-    <item>
       <title>Topographic Drummer</title>
       <link>/posts/topographic-drummer/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
@@ -38,24 +28,6 @@ Image manipulator - skew and animated ripple FM synth with radual FFT plot Granu
       <guid>/posts/topographic-drummer/</guid>
       <description>This project is an exploration into using 2D data from different shapes to sequence and synthesize percussion sounds. It is a performable program designed for improvisation and on-the-fly beat creation, particularly with a minimal and microsound aesthetic. The user can put shapes on a canvas, modify parameters, send the shapes off in random directions and toggle a glitchy delay effect.
 Each drum uses simple subtractive synthesis methods from the Maximilian library, consisting of a sine/saw/triangle wave, state variable filter and envelope for shaping percussive sounds.</description>
-    </item>
-    
-    <item>
-      <title>Inside Voice - Joey Dosik (Studio Cover)</title>
-      <link>/posts/inside-voice/</link>
-      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/inside-voice/</guid>
-      <description>Went to Air Studios, London and had the pleasure of playing a very old Hammond B3 and Minimoog, on a cover of Joey Dosik&amp;rsquo;s &amp;ldquo;Inside Voice&amp;rdquo;, alongside some talented friends. Psychedelic video edited by myself.</description>
-    </item>
-    
-    <item>
-      <title>Polar Twin - PT03</title>
-      <link>/posts/pt03/</link>
-      <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/pt03/</guid>
-      <description>PT03 is a short split single.   soup : cool water by POLAR TWIN</description>
     </item>
     
     <item>
@@ -78,43 +50,12 @@ Visuals coded in Processing.</description>
     </item>
     
     <item>
-      <title>Polar Twin - PT02</title>
-      <link>/posts/pt02/</link>
-      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/pt02/</guid>
-      <description> &amp;lsquo;in hush tone&amp;rsquo;
-&amp;lsquo;more ambient drones n tones to chill ur bones&amp;rsquo;
-&amp;lsquo;best heard at low volumes late at night&amp;rsquo;
-in hush tone by porcelain chambers </description>
-    </item>
-    
-    <item>
       <title>_butterflies (Lorenz Attractor sonification)</title>
       <link>/posts/_butterflies/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/_butterflies/</guid>
       <description>A sonification of the Lorenz Attractor, a chaotic system made up of 3 differential equations. Programmed in Max/MSP + Jitter, the system derives melodic content from the x, y and z values of 2 simultaneously running Lorenz systems, as well as the distance between them, illustrating the butterfly effect.</description>
-    </item>
-    
-    <item>
-      <title>Take My Hand - Matt Berry (Studio Cover)</title>
-      <link>/posts/take-my-hand/</link>
-      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/take-my-hand/</guid>
-      <description>Played keys on this cover of the Toast of London theme tune with some wonderful people! Recorded and produced by Ashley Andrew-Jones and Paul Anders.</description>
-    </item>
-    
-    <item>
-      <title>Polar Twin - PT01</title>
-      <link>/posts/pt01/</link>
-      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/pt01/</guid>
-      <description> First release (split LP) on Polar Twin Records, a new experimental project with Luke Phillips. Visuals put together by myself using free software, some running water and a bin bag.
-PT01 by POLAR TWIN </description>
     </item>
     
     <item>
