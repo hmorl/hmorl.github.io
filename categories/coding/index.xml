@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coding on hmorl</title>
+    <title>Coding on harry morley</title>
     <link>/categories/coding/</link>
-    <description>Recent content in Coding on hmorl</description>
+    <description>Recent content in Coding on harry morley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
     <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
@@ -26,8 +26,9 @@
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/aavp-mini-projects/</guid>
-      <description>Collection of 4 mini-projects I completed for Mick Grierson&amp;rsquo;s &amp;ldquo;Advanced Audio-Visual Processing&amp;rdquo; module as part of my MA in Computational Arts at Goldsmiths.
-Image manipulator - skew and animated ripple FM synth with radual FFT plot Granular audio scrubber with spray 3x3 video motion detector with radial plot Videos coming soon!</description>
+      <description> Collection of 4 mini-projects I completed for Mick Grierson&amp;rsquo;s &amp;ldquo;Advanced Audio-Visual Processing&amp;rdquo; module as part of my MA in Computational Arts at Goldsmiths.
+Videos coming soon!
+Projects  Image manipulator - skew and animated ripple FM synth with radial FFT plot Granular audio scrubber with spray 3x3 video motion detector with radial plot  </description>
     </item>
     
     <item>
@@ -74,7 +75,7 @@ Visuals coded in Processing.</description>
       <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/posts/image-sonifications/</guid>
-      <description>Below are a set of sonifications I made of 3 famous works of art. I built a sonification system in Processing that simplifies an image of the artwork into an array of larger pixels, displayed as circles. The program then ‘plays’ the pixels by selecting them at random, which triggers notes using HSB (hue, saturation, brightness) data to derive pitches and rhythms.
+      <description>Below are a set of sonifications I made of 3 famous works of art. I built a simple sonification system in Processing that simplifies an image of the artwork into an array of large circular pixels. The program then ‘plays’ the pixels as notes by selecting them at random, which triggers notes using HSB (hue, saturation, brightness) data to derive pitches and rhythms.
 When a pixel is triggered, 2 notes are played simultaneously.</description>
     </item>
     
