@@ -6,10 +6,31 @@
     <description>Recent content on harry morley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
-    <lastBuildDate>Sat, 25 May 2019 00:17:20 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>goldcomparts.show</title>
+      <link>/posts/goldcomparts/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/goldcomparts/</guid>
+      <description>This is the website I made for my final degree show, &amp;ldquo;So, How is That Working For You?&amp;rdquo; (5-8 Sept 2019). Map implemented by Julia Makivic.
+Built using Hugo, the static site generator, HTML/CSS3 and JavaScript (no libraries). Makes use of a monospace font and the &amp;ldquo;ch&amp;rdquo; unit in CSS to perfectly align the ASCII art design to the grid.
+Visit goldcomparts.show
+ </description>
+    </item>
+    
+    <item>
+      <title>Cellular Orchestra</title>
+      <link>/posts/cellular-orchestra/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cellular-orchestra/</guid>
+      <description>Cellular Orchestra</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -17,33 +38,43 @@
       <pubDate>Sat, 25 May 2019 00:17:20 +0100</pubDate>
       
       <guid>/about/</guid>
-      <description>I am a musician and computational artist based in London. I enjoy learning new things and collaborating with others!
-Education [2018 - present]
-MA Computational Arts, Goldsmiths
-[2014 - 2017]
-BMus (Hons) Creative Music Technology, Surrey. Ableton Prize for best computer-based live performance
-Music I play keys, guitar/bass and also sing. I enjoy playing jazz, rock, pop, and experimental electronics. Check out my performances here.
-I sometimes release music with my friend on a small experimental label, Polar Twin</description>
+      <description>I&amp;rsquo;m a musician, programmer, artist and web designer based in London. I love learning new things. I&amp;rsquo;ve worked as a music studio technician, content editor for an app, freelance musician, and really enjoy solving problems.
+Education 2019: MA Computational Arts, Goldsmiths
+2017: BMus (Hons) Creative Music Technology, Surrey
+Ableton Prize for best computer-based live performance
+Music I play keys, guitar/bass and also sing. I enjoy playing jazz, rock, pop, and experimental electronics.</description>
     </item>
     
     <item>
-      <title>t-SNE Sampler (Machine Learning project)</title>
+      <title>t-SNE Sampler (machine learning project)</title>
       <link>/posts/tsne-sampler/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/tsne-sampler/</guid>
-      <description> </description>
+      <description>I completed this project as part of Rebecca Fiebrink&amp;rsquo;s Data and Machine Learning module at Goldsmiths. It uses the t-SNE algorithm to reduce the number of dimensions of audio analysis data, so that sounds are arranged in 2D space according to their likeness to one another. I used around 600 sounds, consisting of royalty free samples and my own field recordings.
+For example, all the kick drums are together, all of the wooden percussion sounds are near eachother, and the hi-hat sounds are grouped - and suitably far away from the kick samples.</description>
     </item>
     
     <item>
-      <title>AV Mini Projects</title>
-      <link>/posts/aavp-mini-projects/</link>
-      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      <title>openCV Mini Projects</title>
+      <link>/posts/cv-mini-projects/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/aavp-mini-projects/</guid>
-      <description> Collection of 4 mini-projects I completed for Mick Grierson&amp;rsquo;s &amp;ldquo;Advanced Audio-Visual Processing&amp;rdquo; module as part of my MA in Computational Arts at Goldsmiths.
-Videos coming soon!
-Projects  Image manipulator - skew and animated ripple FM synth with radial FFT plot Granular audio scrubber with spray 3x3 video motion detector with radial plot  </description>
+      <guid>/posts/cv-mini-projects/</guid>
+      <description>Collection of small computer vision sketches.
+ Projects Webcam Harp  openFrameworks/C++ with ofxCv and ofxMaxim libraries.
+ Face-controlled generative visuals  2D graphics controlled by Kyle Mcdonald&amp;rsquo;s FaceOSC face tracker.</description>
+    </item>
+    
+    <item>
+      <title>A/V Mini Projects</title>
+      <link>/posts/av-mini-projects/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/av-mini-projects/</guid>
+      <description>Collection of mini projects completed over the year as part of my MA in Computational Arts at Goldsmiths. Image processing algorithms coded from scratch using openFrameworks/C++, audio projects use openFrameworks/C++ with the ofxMaxim library.
+ Projects Image manipulator Skews and ripples an image, in this case Monet&amp;rsquo;s Waterlilies.
+ Interactive AV sketch  Graphics based on FAL&amp;rsquo;s &amp;ldquo;Motion Catalog&amp;rdquo;, ported to openFrameworks/C++ by myself, with sonified using the ofxMaxim library.</description>
     </item>
     
     <item>
@@ -54,6 +85,15 @@ Projects  Image manipulator - skew and animated ripple FM synth with radial FFT 
       <guid>/posts/topographic-drummer/</guid>
       <description>This project is an exploration into using 2D data from different shapes to sequence and synthesize percussion sounds. It is a performable program designed for improvisation and on-the-fly beat creation, particularly with a minimal and microsound aesthetic. The user can put shapes on a canvas, modify parameters, send the shapes off in random directions and toggle a glitchy delay effect.
 Each drum uses simple subtractive synthesis methods from the Maximilian library, consisting of a sine/saw/triangle wave, state variable filter and envelope for shaping percussive sounds.</description>
+    </item>
+    
+    <item>
+      <title>Invisible Clouds (projection mapping project)</title>
+      <link>/posts/invisible-clouds/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/invisible-clouds/</guid>
+      <description>My projection mapping project for Workshops in Creative Coding. Coded in openFrameworks/C++ using the ofxPiMapper addon.</description>
     </item>
     
     <item>

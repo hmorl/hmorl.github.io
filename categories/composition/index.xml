@@ -6,18 +6,28 @@
     <description>Recent content in Composition on harry morley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
-    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/composition/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>t-SNE Sampler (Machine Learning project)</title>
+      <title>Cellular Orchestra</title>
+      <link>/posts/cellular-orchestra/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cellular-orchestra/</guid>
+      <description>Cellular Orchestra</description>
+    </item>
+    
+    <item>
+      <title>t-SNE Sampler (machine learning project)</title>
       <link>/posts/tsne-sampler/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/tsne-sampler/</guid>
-      <description> </description>
+      <description>I completed this project as part of Rebecca Fiebrink&amp;rsquo;s Data and Machine Learning module at Goldsmiths. It uses the t-SNE algorithm to reduce the number of dimensions of audio analysis data, so that sounds are arranged in 2D space according to their likeness to one another. I used around 600 sounds, consisting of royalty free samples and my own field recordings.
+For example, all the kick drums are together, all of the wooden percussion sounds are near eachother, and the hi-hat sounds are grouped - and suitably far away from the kick samples.</description>
     </item>
     
     <item>
