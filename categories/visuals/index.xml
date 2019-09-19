@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>Designer Trees</title>
+      <link>/posts/designer-trees/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/designer-trees/</guid>
+      <description>Interactive installation prototype that allows the participant to create their own trees with their movements and watch the trees grow on Earth, as the camera flies around in space.
+Uses an implementation of the Space Colonization Algorithm and Kinect. Built in openFrameworks/C++ with the ofxKinect and ofxOpenCv addons.
+Once the tree generation algorithm was implemented, running it whilst showing the 3D world caused the frame rate to drastically drop below useable levels (~5fps).</description>
+    </item>
+    
+    <item>
       <title>openCV Mini Projects</title>
       <link>/posts/cv-mini-projects/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>

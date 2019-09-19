@@ -21,16 +21,6 @@
     </item>
     
     <item>
-      <title>t-SNE Sampler (machine learning project)</title>
-      <link>/posts/tsne-sampler/</link>
-      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/tsne-sampler/</guid>
-      <description>I completed this project as part of Rebecca Fiebrink&amp;rsquo;s Data and Machine Learning module at Goldsmiths. It uses the t-SNE algorithm to reduce the number of dimensions of audio analysis data, so that sounds are arranged in 2D space according to their likeness to one another. I used around 600 sounds, consisting of royalty free samples and my own field recordings.
-For example, all the kick drums are together, all of the wooden percussion sounds are near eachother, and the hi-hat sounds are grouped - and suitably far away from the kick samples.</description>
-    </item>
-    
-    <item>
       <title>Topographic Drummer</title>
       <link>/posts/topographic-drummer/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
