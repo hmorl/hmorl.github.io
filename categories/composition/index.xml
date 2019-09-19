@@ -61,10 +61,10 @@ Visuals coded in Processing.</description>
     
     <item>
       <title>_butterflies (Lorenz Attractor sonification)</title>
-      <link>/posts/_butterflies/</link>
+      <link>/posts/butterflies/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/_butterflies/</guid>
+      <guid>/posts/butterflies/</guid>
       <description>A sonification of the Lorenz Attractor, a chaotic system made up of 3 differential equations. Programmed in Max/MSP + Jitter, the system derives melodic content from the x, y and z values of 2 simultaneously running Lorenz systems, as well as the distance between them, illustrating the butterfly effect.</description>
     </item>
     
