@@ -29,7 +29,7 @@ Visit goldcomparts.show
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/cellular-orchestra/</guid>
-      <description>Cellular Orchestra</description>
+      <description>I am fascinated by cellular automata, and how the simplest of rules can form chaotic and complex structures. Cellular Orchestra is an computational art installation consisting of sound and light making creatures, communicating with each other and responding to their own portion of communally generated patterns. For this project I used a 1D automaton, running on 4 Arduino Nanos, visualised using LED matrixes and sonified using the Mozzi library.</description>
     </item>
     
     <item>
