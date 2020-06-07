@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>harry morley</title>
@@ -19,8 +19,7 @@
       <guid>/posts/goldcomparts/</guid>
       <description>This is the website I made for my final degree show, &amp;ldquo;So, How is That Working For You?&amp;rdquo; (5-8 Sept 2019). Map implemented by Julia Makivic.
 Built using Hugo, the static site generator, HTML/CSS3 and JavaScript (no libraries). Makes use of a monospace font and the &amp;ldquo;ch&amp;rdquo; unit in CSS to perfectly align the ASCII art design to the grid.
-Visit goldcomparts.show
- </description>
+Visit goldcomparts.show</description>
     </item>
     
     <item>
@@ -85,7 +84,7 @@ For example, all the kick drums are together, all of the wooden percussion sound
       <guid>/posts/av-mini-projects/</guid>
       <description>Collection of mini projects completed over the year as part of my MA in Computational Arts at Goldsmiths. Image processing algorithms coded from scratch using openFrameworks/C++, audio projects use openFrameworks/C++ with the ofxMaxim library.
  Projects Image manipulator Skews and ripples an image, in this case Monet&amp;rsquo;s Waterlilies.
- Interactive AV sketch  Graphics based on FAL&amp;rsquo;s &amp;ldquo;Motion Catalog&amp;rdquo;, ported to openFrameworks/C++ by myself, with sonified using the ofxMaxim library.</description>
+ Interactive AV sketch  Graphics based on FAL&amp;rsquo;s &amp;ldquo;Motion Catalog&amp;rdquo;, ported to openFrameworks/C++ by myself, with sonified using the ofxMaxim library. Uses subtractive and FM synthesis.</description>
     </item>
     
     <item>
@@ -94,8 +93,7 @@ For example, all the kick drums are together, all of the wooden percussion sound
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/topographic-drummer/</guid>
-      <description>This project is an exploration into using 2D data from different shapes to sequence and synthesize percussion sounds. It is a performable program designed for improvisation and on-the-fly beat creation, particularly with a minimal and microsound aesthetic. The user can put shapes on a canvas, modify parameters, send the shapes off in random directions and toggle a glitchy delay effect.
-Each drum uses simple subtractive synthesis methods from the Maximilian library, consisting of a sine/saw/triangle wave, state variable filter and envelope for shaping percussive sounds.</description>
+      <description>This project is an exploration into using 2D data from different shapes to sequence and synthesize percussion sounds. It is a performable program designed for improvisation and on-the-fly beat creation, particularly with a minimal and microsound aesthetic. The user can put shapes on a canvas, modify parameters, send the shapes off in random directions and toggle a glitchy delay effect. Each drum uses simple subtractive synthesis methods from the Maximilian library, consisting of a sine/saw/triangle wave, state variable filter and envelope for shaping percussive sounds.</description>
     </item>
     
     <item>
@@ -113,7 +111,7 @@ Each drum uses simple subtractive synthesis methods from the Maximilian library,
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/inside-voice/</guid>
-      <description>Went to Air Studios, London and had the pleasure of playing a very old Hammond B3 and Minimoog, on a cover of Joey Dosik&amp;rsquo;s &amp;ldquo;Inside Voice&amp;rdquo;, alongside some talented friends. Psychedelic phone video edited by myself.</description>
+      <description>Went to Air Studios, London and had the pleasure of playing a very old Hammond B3 and Minimoog, on a cover of Joey Dosik&#39;s &#34;Inside Voice&#34;, alongside some talented friends. Psychedelic phone video edited by myself.</description>
     </item>
     
     <item>
@@ -122,7 +120,8 @@ Each drum uses simple subtractive synthesis methods from the Maximilian library,
       <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/pt03/</guid>
-      <description>PT03 is a short split single.   soup : cool water by POLAR TWIN</description>
+      <description>PT03 is a short split single.
+  soup : cool water by POLAR TWIN</description>
     </item>
     
     <item>
@@ -131,8 +130,7 @@ Each drum uses simple subtractive synthesis methods from the Maximilian library,
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/game-of-live/</guid>
-      <description>A sonification of John Conway’s Game of Life, the famous cellular automaton. Built in Ableton’s Max for Live, the system treats an iterating 2D grid as a generative arpeggiator, which outputs MIDI to a synth. Each cell of the grid can be alive or dead, the state of which is determined by a simple set of rules based on the number of neighbours it has.
-Visuals coded in Processing.</description>
+      <description>A sonification of John Conway’s [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), the famous cellular automaton. Built in Ableton’s Max for Live, the system treats an iterating 2D grid as a generative arpeggiator, which outputs MIDI to a synth. Each cell of the grid can be alive or dead, the state of which is determined by a simple set of rules based on the number of neighbours it has. Visuals coded in Processing.</description>
     </item>
     
     <item>
@@ -150,10 +148,9 @@ Visuals coded in Processing.</description>
       <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/pt02/</guid>
-      <description> &amp;lsquo;in hush tone&amp;rsquo;
-&amp;lsquo;more ambient drones n tones to chill ur bones&amp;rsquo;
+      <description> &#39;in hush tone&#39; &amp;lsquo;more ambient drones n tones to chill ur bones&amp;rsquo;
 &amp;lsquo;best heard at low volumes late at night&amp;rsquo;
-in hush tone by porcelain chambers </description>
+in hush tone by porcelain chambers</description>
     </item>
     
     <item>
@@ -162,7 +159,7 @@ in hush tone by porcelain chambers </description>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/butterflies/</guid>
-      <description>A sonification of the Lorenz Attractor, a chaotic system made up of 3 differential equations. Programmed in Max/MSP + Jitter, the system derives melodic content from the x, y and z values of 2 simultaneously running Lorenz systems, as well as the distance between them, illustrating the butterfly effect.</description>
+      <description>A sonification of the [Lorenz Attractor](https://en.wikipedia.org/wiki/Lorenz_system), a chaotic system made up of 3 differential equations. Programmed in Max/MSP + Jitter, the system derives melodic content from the x, y and z values of 2 simultaneously running Lorenz systems, as well as the distance between them, illustrating the [butterfly effect](https://en.</description>
     </item>
     
     <item>
@@ -180,8 +177,7 @@ in hush tone by porcelain chambers </description>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/pt01/</guid>
-      <description> First release (split LP) on Polar Twin Records, a new experimental project with Luke Phillips. Visuals put together by myself using free software, some running water and a bin bag.
-PT01 by POLAR TWIN </description>
+      <description> First release (split LP) on Polar Twin Records, a new experimental project with Luke Phillips. Visuals put together by myself using free software, some running water and a bin bag. PT01 by POLAR TWIN </description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Visuals on harry morley</title>
+    <title>visuals on harry morley</title>
     <link>/categories/visuals/</link>
-    <description>Recent content in Visuals on harry morley</description>
+    <description>Recent content in visuals on harry morley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
     <lastBuildDate>Tue, 17 Sep 2019 00:00:00 +0000</lastBuildDate>
@@ -50,7 +50,7 @@ Once the tree generation algorithm was implemented, running it whilst showing th
       <guid>/posts/av-mini-projects/</guid>
       <description>Collection of mini projects completed over the year as part of my MA in Computational Arts at Goldsmiths. Image processing algorithms coded from scratch using openFrameworks/C++, audio projects use openFrameworks/C++ with the ofxMaxim library.
  Projects Image manipulator Skews and ripples an image, in this case Monet&amp;rsquo;s Waterlilies.
- Interactive AV sketch  Graphics based on FAL&amp;rsquo;s &amp;ldquo;Motion Catalog&amp;rdquo;, ported to openFrameworks/C++ by myself, with sonified using the ofxMaxim library.</description>
+ Interactive AV sketch  Graphics based on FAL&amp;rsquo;s &amp;ldquo;Motion Catalog&amp;rdquo;, ported to openFrameworks/C++ by myself, with sonified using the ofxMaxim library. Uses subtractive and FM synthesis.</description>
     </item>
     
     <item>
@@ -68,8 +68,7 @@ Once the tree generation algorithm was implemented, running it whilst showing th
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/game-of-live/</guid>
-      <description>A sonification of John Conway’s Game of Life, the famous cellular automaton. Built in Ableton’s Max for Live, the system treats an iterating 2D grid as a generative arpeggiator, which outputs MIDI to a synth. Each cell of the grid can be alive or dead, the state of which is determined by a simple set of rules based on the number of neighbours it has.
-Visuals coded in Processing.</description>
+      <description>A sonification of John Conway’s [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), the famous cellular automaton. Built in Ableton’s Max for Live, the system treats an iterating 2D grid as a generative arpeggiator, which outputs MIDI to a synth. Each cell of the grid can be alive or dead, the state of which is determined by a simple set of rules based on the number of neighbours it has. Visuals coded in Processing.</description>
     </item>
     
   </channel>

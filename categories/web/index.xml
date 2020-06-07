@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web on harry morley</title>
+    <title>web on harry morley</title>
     <link>/categories/web/</link>
-    <description>Recent content in Web on harry morley</description>
+    <description>Recent content in web on harry morley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
     <lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
@@ -19,8 +19,7 @@
       <guid>/posts/goldcomparts/</guid>
       <description>This is the website I made for my final degree show, &amp;ldquo;So, How is That Working For You?&amp;rdquo; (5-8 Sept 2019). Map implemented by Julia Makivic.
 Built using Hugo, the static site generator, HTML/CSS3 and JavaScript (no libraries). Makes use of a monospace font and the &amp;ldquo;ch&amp;rdquo; unit in CSS to perfectly align the ASCII art design to the grid.
-Visit goldcomparts.show
- </description>
+Visit goldcomparts.show</description>
     </item>
     
   </channel>
