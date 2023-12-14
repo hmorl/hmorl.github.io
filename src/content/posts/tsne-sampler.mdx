@@ -1,0 +1,40 @@
+---
+title: "t-SNE Sampler"
+date_created: 2019-05-10
+image: img/tsne-sampler.png
+tags: [coding]
+draft: false
+featured: true
+thumbnail:
+  cloudinary_id: tsne_wa72sl
+---
+
+An exploration into the automatic organisation of sounds as a playable instrument.
+
+<VimeoPlayer videoId="335258061" />
+
+## About
+
+I built this project as part of Rebecca Fiebrink's Data and Machine Learning module at Goldsmiths. It uses the t-SNE algorithm to reduce the number of dimensions of audio analysis data, so that sounds are arranged in 2D space according to their likeness to one another. I used around 600 sounds, consisting of royalty free samples and my own field recordings.
+
+For example, all the kick drums are next to each other, as are the wooden percussion sounds and the hi-hat sounds. These 3 groups are then suitably distanced from each other according to the their likeness.
+
+The project has 2 parts - an audio analysis and t-SNE generation Python script based on Gene Kogan's [audio t-SNE script](https://github.com/ml4a/ml4a-guides/blob/master/notebooks/audio-tsne.ipynb), and a sequencer app which uses the 2D data, made in C++/openFrameworks. The program can sync with Ableton Link-enabled applications.
+
+Sounds are triggered by "Lens" objects, visualised by large circles. These are like sonic magnifying glasses, which trawling over the 2D space and uncover the sonic artefacts.
+
+A Lens can be created by clicking and dragging to set its radius. All samples (the smaller dots) inside a Lens can be triggered. The speed and time that the triggering occurs depends on the frequency and phase controls - meaning polyrhythms can be easily formed.
+
+Something that emerged which I liked was the ability to turn the frequency up super fast, creating a granular synthesis/microsound aesthetic.
+
+The wandering radius and speed controls allow the Lenses to drift around their origin positions. This allows them to travel into different neighbourhoods of sound.
+
+After each Lens collects all of its currently "in view" samples, which happens every frame, it sorts them by distance from the center of the Lens. A feature can be turned on which triggers the samples in order from closest to farthest from the center. When this feature is turned off, the samples are chosen at random.
+
+The "inner radius" control allows you to turn the Lens into a ring, where only sounds within the ring are triggered.
+
+This project was very prototypey as it was just coursework rather than a big piece of work. In the future, I would love to improve the playing experience so that it is more performable and customisable.
+
+## Further reading
+
+I found [this article](https://distill.pub/2016/misread-tsne/) handy in learning how to interpret the results of the t-SNE and tune its parameters.

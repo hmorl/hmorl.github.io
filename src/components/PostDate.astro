@@ -1,0 +1,18 @@
+---
+const props = Astro.props;
+
+const date = new Date(props.dateCreated).toLocaleDateString("en-US", {
+  month: "short",
+  year: "numeric",
+});
+---
+
+<style>
+  p {
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+  }
+</style>
+
+<p>{date}</p>

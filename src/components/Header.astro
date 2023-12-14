@@ -1,0 +1,110 @@
+---
+import siteMetadata from "../site-metadata";
+---
+
+<style>
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+
+    border-bottom: 3px black double;
+    padding: 1rem 0;
+    margin: 0 1rem 1rem 1rem;
+  }
+
+  .site-title {
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  .site-title:hover,
+  .site-title:focus-visible {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    background-color: var(--yellow);
+  }
+
+  .site-title:active {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    color: inherit;
+  }
+
+  .social-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+  }
+
+  .social-nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-nav li a {
+    text-decoration: none;
+    color: var(--black);
+    border: 3px double transparent;
+    padding: 0 0.25em 0 0.25em;
+  }
+
+  .social-nav li a:hover,
+  .social-nav li a:focus-visible {
+    background-color: transparent;
+    border: 3px double black;
+    border-radius: 0.5em;
+  }
+
+  .skip-to-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  .skip-to-content:focus {
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+  .digital-garden {
+    cursor: default;
+    justify-self: center;
+  }
+</style>
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+
+<div class="site-header">
+  <a href="#main-content" class="skip-to-content">Skip to content</a>
+  <a href="/" class="site-title">{siteMetadata.title}</a>
+  <span class="digital-garden" aria-label="a bunch of plant emojis"
+    >🌱🌿🪷🌳🪴🍄🌻</span
+  >
+  <nav class="social-nav">
+    <ul>
+      {
+        siteMetadata.socialNav.map((link) => (
+          <li>
+            <a href={link.url} aria-label={link.name}>
+              <i class={`fa fa-${link.faClass}`} />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</div>

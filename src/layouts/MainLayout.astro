@@ -1,0 +1,34 @@
+---
+import Header from "../components/Header.astro";
+---
+
+<style>
+  .main-container {
+    margin: 0 auto;
+    padding: 0.5rem;
+
+    max-width: 42rem;
+    min-height: 100%;
+    background-color: white
+    backdrop-filter: blur(5px);
+
+    border-radius: 1rem;
+    border: 3px double black;
+  }
+
+  .content {
+    padding: 0rem 1rem;
+  }
+</style>
+
+<html lang="en">
+  <body>
+    <div class="main-container">
+      <Header />
+
+      <div class="content">
+        <slot />
+      </div>
+    </div>
+  </body>
+</html>

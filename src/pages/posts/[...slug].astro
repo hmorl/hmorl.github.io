@@ -1,0 +1,31 @@
+---
+import "../../styles/global.css";
+import { getCollection } from "astro:content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import VimeoPlayer from "../../components/VimeoPlayer.astro";
+import Image from "../../components/Image.astro";
+import PostDate from "../../components/PostDate.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} /></head
+>
+<MainLayout {...post.data}>
+  <h1 id="main-content" tabindex="-1">{post.data.title}</h1>
+  {post.data.date_created && <PostDate dateCreated={post.data.date_created} />}
+  <Content components={{ VimeoPlayer, Image }} />
+</MainLayout>

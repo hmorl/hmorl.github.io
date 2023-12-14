@@ -1,5 +1,11 @@
 ---
-
+import "../styles/global.css";
+import { getCollection } from "astro:content";
+import siteMetadata from "../site-metadata";
+import MainLayout from "../layouts/MainLayout.astro";
+import PostGrid from "../components/PostGrid.astro";
+import type { Code } from "astro:components";
+const posts = await getCollection("posts");
 ---
 
 <html lang="en">
@@ -8,9 +14,15 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Harry Morley</title>
+    <title>{siteMetadata.title}</title>
   </head>
   <body>
-    <h1>Harry Morley</h1>
+    <MainLayout>
+      <p>
+        I'm a musician and software developer based in London.
+        <a href="posts/about-me">More…</a>
+      </p>
+      <PostGrid posts={posts} />
+    </MainLayout>
   </body>
 </html>

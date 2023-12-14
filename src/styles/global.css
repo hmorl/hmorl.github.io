@@ -1,0 +1,55 @@
+:root {
+  --font-size-regular: 20px;
+  --grey: rgb(210, 210, 210);
+  --white: rgb(255, 255, 255);
+  --yellow: rgb(255, 255, 101);
+  --black: rgb(0, 0, 0);
+}
+
+html {
+  margin: 0;
+  font-size: var(--font-size-regular);
+  line-height: 1.6em;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: "Iowan Old Style", "Apple Garamond", "Baskerville",
+    "Times New Roman", "Droid Serif", "Times", "Source Serif Pro", serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: white;
+}
+
+::selection {
+  background-color: var(--yellow);
+  cursor: crosshair;
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+}
+
+a:link {
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  color: var(--black);
+}
+
+a:visited {
+  color: var(--black);
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-style: solid;
+  background-color: var(--yellow);
+}
+
+a:active {
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  color: inherit;
+}

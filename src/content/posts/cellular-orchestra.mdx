@@ -1,0 +1,60 @@
+---
+title: 'Cellular Orchestra'
+date_created: 2019-09-17
+featured: true
+tags: [coding, art, 'cellular automata']
+description: 'Cellular automaton art installation'
+thumbnail:
+  cloudinary_id: cellular-orch-dark.jpg
+
+---
+
+<VimeoPlayer videoId="359992816" />
+
+I love it when simple rules manifest chaotic and complex behaviour. Cellular Orchestra is a computational art installation consisting of sound and light emitting creatures, who communicate with each other and respond to their
+own portion of a communally-generated cellular automaton. For this project I used a [1D automaton](https://en.wikipedia.org/wiki/Elementary_cellular_automaton),
+running on 4 Arduino Nanos, visualised using LED matrixes and sonified using the
+[Mozzi library](https://sensorium.github.io/Mozzi/).
+
+<Image src="https://res.cloudinary.com/dpt9ebuoe/image/upload/c_scale,f_auto,q_auto:good,w_1000/cellular_orch_led_matrix_prototype_kfk5y2.jpg" alt="Early prototype, testing the LED matrixes"/>
+
+## Technical info
+
+Each box is made from laser-cut plywood and contains:
+
+- Arduino/Elegoo Nano
+- 8Ω speaker driver
+- PAM8403 audio amplifier module
+- 32x8 LED matrix, driven by MAX7219 chips
+- 220Ω resistor and 100nF capacitor as a low-pass filter, to improve audio quality
+- 2 capacitors (220uF and 100uF) in parallel, across the 5V and GND of the LED matrixes, to help filter out interference
+
+<Image src="https://res.cloudinary.com/dpt9ebuoe/image/upload/c_scale,f_auto,q_auto:good,w_1000/cellular-orch-board-close-up_aqkhva" alt="A close-up of the circuit board"/>
+
+The creatures of the Cellular Orchestra each generate a 32 pixel wide portion of the same elementary cellular automaton. It is 1-dimensional, meaning a single row of cells is generated every generation. The creatures store 8 previously generated lines, so we can observe the 2D patterns unfolding. Daniel Shiffman has [an excellent guide](https://natureofcode.com/book/chapter-7-cellular-automata/) on how cellular automata work.
+
+There are different rulesets, each one producing different kinds of patterns, but rule 30 is known for its chaotic properties. Triangular shapes and line streaks appear in an unpredictable yet organic fashion. In nature, surprisingly or unsurprisingly, similar textures can be observed, for example on certain types of [cone snails](https://en.wikipedia.org/wiki/Cone_snail).
+
+<Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Textile_cone.JPG/640px-Textile_cone.JPG" alt="Photo of a cone snail shell"/>
+
+The boxes generate a continuous pattern that wraps around. To do this, after every generation each box announces their leftmost and rightmost cell states oto the network. The Arduinos are connected in a serial ring network, so if an Arduino receive a message, it uses the data if it has come from a neighbouring creature, then sends it on in case any other creature requires it. If it receives its own message, then that means the message has gone full-circle, so the message is ignored and not sent on.
+
+Source code is [here on GitHub](https://github.com/hmorl/cellular-orchestra)... not my cleanest code 😬
+
+## Sonification details
+
+### Creature 1 - "crackle"
+
+This one plays a low-frequency sawtooth wave, with the pitch mapped to the population of its live cells. Creates a continuous popping sound.
+
+### Creature 2 - "wash"
+
+This plays slow-modulating filtered noise, to provide sea-like ambience. It also emits sinewave "boop" sounds when a large triangle is present.
+
+### Creature 3 - "brash"
+
+It emits noise bursts when a large triangle is present.
+
+### Creature 4 - "the quiet one"
+
+It plays a glitchy, gated sinewave tone, mapped to the population of live cells. This creature is named such because its amplifier failed on the day before the exhibition, so the output from the Arduino had to be wired directly to the speaker. It could be heard, but only when the other three were not sounding, which turned out to be quite profound.
