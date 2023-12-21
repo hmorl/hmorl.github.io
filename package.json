@@ -12,7 +12,9 @@
   "dependencies": {
     "@astrojs/check": "^0.3.2",
     "@astrojs/mdx": "^2.0.1",
+    "alea": "^1.0.1",
     "astro": "^4.0.5",
+    "simplex-noise": "^4.0.1",
     "typescript": "^5.3.3"
   }
 }
