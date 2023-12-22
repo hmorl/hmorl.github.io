@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
-    "@astrojs/mdx": "^2.0.1",
+    "@astrojs/mdx": "^2.0.2",
     "alea": "^1.0.1",
     "astro": "^4.0.5",
     "simplex-noise": "^4.0.1",
